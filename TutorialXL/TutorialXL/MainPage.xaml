@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TutorialXL"
+             x:Class="TutorialXL.MainPage">
+    
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <Label Text="Welcome to Xamarin Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+            <Button x:Name="BtnSecond" Text="Go to second" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" 
+           Clicked="BtnSecond_Clicked" />
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
