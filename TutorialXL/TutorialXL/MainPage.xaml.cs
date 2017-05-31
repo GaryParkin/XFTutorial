@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
+// This is based off of this tutorial
+// https://www.youtube.com/watch?v=mxICEDKQD9s
 
 namespace TutorialXL
 {
